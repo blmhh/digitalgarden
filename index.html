@@ -1,61 +1,144 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>玻瑠 の Digital Garden</title>
+    <style>
+      body {
+        background-color: whitesmoke;
+        height: 100%;
+        width: 100%;
+      }
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>玻瑠的数字花园</title>
-</head>
+      .flex {
+        display: flex;
+      }
 
-<body>
-    <div style="
-    background-color: #ffffff;
-    margin:0 auto;
-    text-align:center;
-    padding: 50px">
-        <h1 style="font-family:" Times New Roman", Times, serif"> 玻瑠 の Digital Garden </h1>
-        <p style="text-align: mid; font-size:10px ">一个散漫的人，不自律，不喜欢赶时间追热点，也不喜欢被推荐算法束缚。</p>
-        <p style="text-align: center; 
-    font-size:10px">爱发电更新文字专栏，每周输出，主要关于INFP自救指南/自我觉知的碎碎念/书籍推荐等。</p>
+      .column {
+        flex-direction: column;
+      }
+
+      .flex1 {
+        flex: 1;
+      }
+
+      .j_center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .font-mini {
+        font-size: 10px;
+        color: #c3c0c0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- top  -->
+    <div
+      class="j_center"
+      style="
+        background-color: white;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        height: 150px;
+        box-shadow: 2px 2px 2px 1px whitesmoke;
+      "
+    >
+      <img
+        src="https://logopond.com/logos/85d948edd203b8044e430d51f53df7a9.png"
+        alt="logo"
+        style="height: 55px; margin-right: 20px; border-radius: 20%"
+      />
+      <h1>玻瑠 の Digital Garden</h1>
     </div>
+    <!-- main area -->
+    <div
+      class="flex column"
+      style="position: absolute; top: 120px; width: 100%"
+    >
+      <!-- contents -->
+      <div
+        style="
+          margin: 0 auto;
+          text-align: center;
+          padding-top: 150px;
+          font-size: 12px;
+        "
+      >
+        <p>
+          一个散漫的人，不自律，不喜欢赶时间追热点，也不喜欢被推荐算法束缚。
+        </p>
+        <p>
+          爱发电更新文字专栏，每周输出，主要关于INFP自救指南/自我觉知的碎碎念/书籍推荐等。
+        </p>
+      </div>
 
-    <article style="margin:5px auto;text-align:left;color: #aaaaaa;font-size:10px;line-height:2;max-width: 500px">
-        <div >
-            <p >——————————————</p>
-            <p>有些人的人生轨迹像高速公路或者登山路线，向着一个方向直线前进或盘旋上升。</p>
-            <p>有些人的人生轨迹像原始森林里的树，有的枝叶重叠，有的树枝交叉，有的则只管欢心地迎向太阳。</p>
-            <p >每个人都很难成为另一种人。</p>
-            <p >能做的只有面对真实的自己。</p>
+      <article
+        style="
+          margin: 5px auto;
+          text-align: left;
+          color: #aaaaaa;
+          font-size: 10px;
+          line-height: 2;
+          max-width: 500px;
+          padding-bottom: 200px;
+          padding-top: 60px;
+        "
+      >
+        <div>
+          <p>——————————————</p>
+          <p>
+            有些人的人生轨迹像高速公路或者登山路线，向着一个方向直线前进或盘旋上升。
+          </p>
+          <p>
+            有些人的人生轨迹像原始森林里的树，有的枝叶重叠，有的树枝交叉，有的则只管欢心地迎向太阳。
+          </p>
+          <p>每个人都很难成为另一种人。</p>
+          <p>能做的只有面对真实的自己。</p>
         </div>
-    </article>
-
-    <div style="margin-top:30px;  text-align:center">
-        <a style="font-size: 12px;color:blueviolet;margin-right: 50px;" href="https://afdian.net/@blmhh">❤爱发电专栏</a>
-        <a style="font-size: 12px;color:blueviolet;margin-right: 50px;" href="https://weibo.com/u/1655931670">❤我的微博</a>
-        <a style="font-size: 12px;color:blueviolet;margin-right: 50px;"
-            href="https://space.bilibili.com/113340784?spm_id_from=333.1007.0.00">❤我的小破站</a>
+        <img
+          src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG9yc2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+          alt=""
+          height="400"
+          style="position: relative; top: 40px"
+        />
+      </article>
     </div>
+    <!-- footer -->
+    <div
+      style="
+        height: 50px;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        left: 0;
 
-    <div style="text-align: center;">
-        <img style="margin-top:50px" alt="Miya Zhang"
-            src="https://images.unsplash.com/photo-1528834342297-fdefb9a5a92b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
-            width="640px" height="400px">
-
-        </img>
+        bottom: 0px;
+      "
+      class="j_center"
+    >
+      <!-- 炒链接 -->
+      <a
+        href="https://weibo.com/u/1655931670"
+        style="margin-right: 20px"
+        class="font-mini"
+        >❤️我的微博</a
+      >
+      <a
+        href="https://space.bilibili.com/113340784?spm_id_from=333.1007.0.00"
+        style="margin-right: 20px"
+        class="font-mini"
+        >❤️我的小破站</a
+      >
+      <a href="https://afdian.net/a/blmhh" class="font-mini">❤️为爱发电</a>
     </div>
-
-    <div style="
-    background-color: #f1f1f1;
-    margin-top:30px;
-    text-align: center;
-    padding: 40px;
-    font-size: 12px;">
-        <p>欢迎你再来</p>
-
-
-
-    </div>
-
-</body>
-
+  </body>
 </html>
